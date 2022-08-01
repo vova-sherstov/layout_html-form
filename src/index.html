@@ -51,7 +51,11 @@
         </label>
         <label class="formField">
           I accept the term of the agreement
-          <input type="checkbox" name="agreement">
+          <input
+            type="checkbox"
+            name="agreement"
+            required
+          >
         </label>
       </fieldset>
       <fieldset class="registration fieldBox">
@@ -63,6 +67,7 @@
             name="email"
             placeholder="email@example.com"
             autocomplete="off"
+            required
           >
         </label>
         <label class="formField">
@@ -73,6 +78,7 @@
             minlength="3"
             maxlength="20"
             autocomplete="off"
+            required
           >
         </label>
       </fieldset>
@@ -112,10 +118,11 @@
         <label class="formField">
           Comments:
           <textarea
-          name="comments"
-          cols="20"
-          rows="2"
-          autocomplete="off">
+            name="comments"
+            cols="20"
+            rows="2"
+            autocomplete="off"
+          >
           </textarea>
         </label>
         <label class="formField">
